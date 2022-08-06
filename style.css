@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.title{
+    margin: 15vh auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000AA;
+    color: white;
+    border: 3px solid white;
+    font-size: 33px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
